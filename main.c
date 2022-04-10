@@ -6,5 +6,6 @@ int main()
     scanf("%d %d", &num1, &num2);
     float num3 = num2 * 1.0 / num1;
 
-    printf("The quotient is: %f", num3);
+    printf("The quotient is: %f\n", num3);
+    printf("Remainder: %d", num2 % num1);
 }
